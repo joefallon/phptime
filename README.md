@@ -27,7 +27,7 @@ and run the `php composer.phar install` command to install it.
 ```json
 {
     "require": {
-        "joefallon/phptimeutil": "*"
+        "joefallon/phptime": "*"
     }
 }
 ```
