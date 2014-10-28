@@ -4,9 +4,9 @@ use JoeFallon\KissTest\UnitTest;
 require('config/main.php');
 
 
-new \tests\JoeFallon\Time\ChronographTests();
-new \tests\JoeFallon\Time\DaysTests();
-new \tests\JoeFallon\Time\MonthsTests();
-new \tests\JoeFallon\Time\MySqlDateTimeTests();
+new \tests\JoeFallon\PhpTime\ChronographTests();
+new \tests\JoeFallon\PhpTime\DaysTests();
+new \tests\JoeFallon\PhpTime\MonthsTests();
+new \tests\JoeFallon\PhpTime\MySqlDateTimeTests();
 
 UnitTest::getAllUnitTestsSummary();

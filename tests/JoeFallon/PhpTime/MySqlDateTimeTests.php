@@ -1,8 +1,8 @@
 <?php
-namespace tests\JoeFallon\Time;
+namespace tests\JoeFallon\PhpTime;
 
 use JoeFallon\KissTest\UnitTest;
-use JoeFallon\Time\MySqlDateTime;
+use JoeFallon\PhpTime\MySqlDateTime;
 
 /**
  * @author    Joseph Fallon <joseph.t.fallon@gmail.com>

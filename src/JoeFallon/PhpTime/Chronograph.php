@@ -1,5 +1,5 @@
 <?php
-namespace JoeFallon\Time;
+namespace JoeFallon\PhpTime;
 
 /**
  * @author    Joseph Fallon <joseph.t.fallon@gmail.com>

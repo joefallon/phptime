@@ -1,8 +1,8 @@
 <?php
-namespace tests\JoeFallon\Time;
+namespace tests\JoeFallon\PhpTime;
 
 use JoeFallon\KissTest\UnitTest;
-use JoeFallon\Time\Days;
+use JoeFallon\PhpTime\Days;
 
 
 /**

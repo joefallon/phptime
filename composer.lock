@@ -9,16 +9,16 @@
     "packages-dev": [
         {
             "name": "joefallon/kisstest",
-            "version": "v1.1.6",
+            "version": "v1.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/joefallon/kisstest.git",
-                "reference": "a5e19de2b350252be3c3bd3f3c5dab29d19ec524"
+                "reference": "14c99dfe9fe10e44406cba000f4c7b6066d13014"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/joefallon/kisstest/zipball/a5e19de2b350252be3c3bd3f3c5dab29d19ec524",
-                "reference": "a5e19de2b350252be3c3bd3f3c5dab29d19ec524",
+                "url": "https://api.github.com/repos/joefallon/kisstest/zipball/14c99dfe9fe10e44406cba000f4c7b6066d13014",
+                "reference": "14c99dfe9fe10e44406cba000f4c7b6066d13014",
                 "shasum": ""
             },
             "require": {
@@ -51,7 +51,7 @@
                 "unit-test",
                 "xunit"
             ],
-            "time": "2014-10-20 15:04:14"
+            "time": "2014-10-22 20:47:37"
         },
         {
             "name": "joefallon/phpautoloader",
