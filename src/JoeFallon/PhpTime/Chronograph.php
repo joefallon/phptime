@@ -42,7 +42,7 @@ class Chronograph
      */
     public function getElapsedTimeInMillisecs()
     {
-        $seconds      = $this->getElaspedTimeInSeconds();
+        $seconds      = $this->getElapsedTimeInSeconds();
         $milliSeconds = $seconds * self::MILLISEC_PER_SECOND;
 
         return round($milliSeconds, 1);
@@ -55,7 +55,7 @@ class Chronograph
      *
      * @return float
      */
-    public function getElaspedTimeInSeconds()
+    public function getElapsedTimeInSeconds()
     {
         if(!$this->_timeStartInMicroSeconds)
         {

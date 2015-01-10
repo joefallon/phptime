@@ -38,7 +38,7 @@ Class Documentation
 ### Chronograph
 
 Here is an example of using `Chronograph` to measure the time elapsed in
-milleSeconds between a start time and stop time:
+milliSeconds between a start time and stop time:
 
 ```php
 use JoeFallon\TimeUtil\Chronograph;
@@ -64,7 +64,7 @@ $chrono->start();   // start the chronograph
 // Perform other work.
 
 $chrono->stop();    // stop the chronograph
-$secs = $chrono->getElaspedTimeInSeconds();
+$secs = $chrono->getElapsedTimeInSeconds();
 ```
 
 ### Days

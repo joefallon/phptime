@@ -25,7 +25,7 @@ class ChronographTests extends UnitTest
     {
         $chrono = new Chronograph();
         $chrono->stop();
-        $s = $chrono->getElaspedTimeInSeconds();
+        $s = $chrono->getElapsedTimeInSeconds();
 
         $this->assertEqual($s, 0);
     }
