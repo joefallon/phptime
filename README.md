@@ -15,7 +15,7 @@ it provides the following capabilities:
 3. A class containing a collection of constants representing every month
    of the year is provided.
 4. A class containing a method for getting a time stamp that is suitable
-   for immediate insertion into MySQL (i.e. 'Y-m-d H:i:s') is provided.
+   for immediate insertion into MySQL (i.e. `Y-m-d H:i:s`) is provided.
 
 Installation
 ------------
