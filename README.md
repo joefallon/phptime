@@ -1,5 +1,4 @@
-Joe's PHP Time Utilities
-========================
+# phptime
 
 By [Joe Fallon](http://blog.joefallon.net)
 
@@ -17,8 +16,7 @@ it provides the following capabilities:
 4. A class containing a method for getting a time stamp that is suitable
    for immediate insertion into MySQL (i.e. `Y-m-d H:i:s`) is provided.
 
-Installation
-------------
+## Installation
 
 The easiest way to install Joe's PHP Time Utilities is with
 [Composer](https://getcomposer.org/). Create the following `composer.json` file
@@ -32,8 +30,7 @@ and run the `php composer.phar install` command to install it.
 }
 ```
 
-Class Documentation
--------------------
+## Class Documentation
 
 ### Chronograph
 
