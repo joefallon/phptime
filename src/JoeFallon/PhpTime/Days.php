@@ -1,13 +1,8 @@
 <?php
 namespace JoeFallon\PhpTime;
 
-
 /**
  * This class provides a set of constants representing the days of the week.
- *
- * @author    Joseph Fallon <joseph.t.fallon@gmail.com>
- * @copyright Copyright 2014 Joseph Fallon (All rights reserved)
- * @license   MIT
  */
 class Days
 {

@@ -1,11 +1,6 @@
 <?php
 namespace JoeFallon\PhpTime;
 
-/**
- * @author    Joseph Fallon <joseph.t.fallon@gmail.com>
- * @copyright Copyright 2014 Joseph Fallon (All rights reserved)
- * @license   MIT
- */
 class Chronograph
 {
     const MILLISEC_PER_SECOND = 1000.0;
@@ -15,7 +10,6 @@ class Chronograph
     /** @var float */
     private $_timeStopInMicroSeconds;
 
-
     /**
      * This function starts the chronograph.
      */
@@ -23,7 +17,6 @@ class Chronograph
     {
         $this->_timeStartInMicroSeconds = microtime(true);
     }
-
 
     /**
      * This function stops the chronograph.
@@ -33,7 +26,6 @@ class Chronograph
         $this->_timeStopInMicroSeconds = microtime(true);
     }
 
-
     /**
      * This function returns the time that has passed between when start() was
      * called and when stop() was called in milliSeconds (mS).
@@ -42,12 +34,11 @@ class Chronograph
      */
     public function getElapsedTimeInMillisecs()
     {
-        $seconds      = $this->getElapsedTimeInSeconds();
+        $seconds = $this->getElapsedTimeInSeconds();
         $milliSeconds = $seconds * self::MILLISEC_PER_SECOND;
 
         return round($milliSeconds, 1);
     }
-
 
     /**
      * This function returns the time that has passed between when start() was
@@ -63,7 +54,7 @@ class Chronograph
         }
 
         $microSecsStart = $this->_timeStartInMicroSeconds;
-        $microSecsStop  = $this->_timeStopInMicroSeconds;
+        $microSecsStop = $this->_timeStopInMicroSeconds;
 
         if($microSecsStop == 0)
         {
@@ -75,5 +66,4 @@ class Chronograph
 
         return round($seconds, 4);
     }
-
 }
